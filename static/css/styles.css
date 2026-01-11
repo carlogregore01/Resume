@@ -1,0 +1,66 @@
+/* Base Styles */
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #2D296D;
+    color: white;
+}
+
+/* Animations & Effects */
+.glow-effect {
+    box-shadow: 0 0 40px rgba(233, 75, 60, 0.3);
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #E94B3C, #F2AA4C);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #F2AA4C;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Smooth reveal animation */
+@keyframes reveal {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-reveal {
+    animation: reveal 0.8s ease-out forwards;
+}
+
+.delay-100 {
+    animation-delay: 0.1s;
+}
+
+.delay-200 {
+    animation-delay: 0.2s;
+}
+
+.delay-300 {
+    animation-delay: 0.3s;
+}

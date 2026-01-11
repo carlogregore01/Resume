@@ -1,0 +1,36 @@
+mobilenum = "09175167110" 
+email = "carlogregore01@gmail.com"
+workexp = """
+• Gravitas Software and Service Solutions, Inc (2019 - 2022) 
+• Global Strategic Solutions and Services, Inc. (2012 - 2019) 
+
+    o Software Developer/Support 
+    o Electronic Capital Request (eCR) 
+    ▪ Client support 
+    ▪ Application Enhancement based on change requests 
+    o Electronic Pre-Commitment Information Sheet (ePCIS) 
+▪ Client Support 
+▪ Application Enhancement based on change requests 
+▪ Technical documentation & User Manual 
+o Travel Management System (TMS) 
+▪ Client Support 
+▪ Application Enhancement based on change requests 
+▪ Server upgrade to 64-bit with SAP connections 
+o Credit Limit Request (CLR)  
+▪ Client Support 
+▪ Application Enhancement based on change requests 
+▪ Technical Documentation & User Manual  
+o Electronic Disposal Request (eDR) 
+▪ Client Support 
+▪ Application Enhancement based on change requests 
+o Milestone Reports and Post-Completion Audits (MSR / PCA) 
+▪ Client Support 
+▪ Application Enhancement based on change requests 
+• Lydia’s Lechon (2005) 
+o Dining 
+• Jollibee Foods Corporation (2005) 
+o Dining, Counter Crew """
+
+college = "STI College College-Parañaque (San Dionisio, Parañaque City; 2008-2012) BS Computer Science "
+highschool = "St. Andrew's School (La Huerta, Parañaque City; 1999-2003)"
+elementary = "Malate Catholic School (Malate, Manila; 1993-1999) "
