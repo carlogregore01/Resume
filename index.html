@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlo Gregore - Digital Masterpieces</title>
+    <meta name="description" content="Portfolio of Carlo Gregore - Professional Developer & Designer">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- External Tailwind Config -->
+    <script src="./static/js/tailwind.config.js"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./static/css/styles.css">
+</head>
+
+<body class="antialiased min-h-screen">
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 bg-[#2D296D]/90 backdrop-blur-sm border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 py-5">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-2xl font-bold bg-white/10 px-3 py-1 rounded-lg hover:bg-white/20 transition">
+                    Carlo Gregore
+                </a>
+
+                <div class="hidden md:flex space-x-4">
+                    <a href="#home"
+                        class="px-5 py-2 border border-white/20 rounded-full hover:border-brand-yellow hover:text-brand-yellow transition text-sm text-gray-300">Home</a>
+                    <a href="#about"
+                        class="px-5 py-2 border border-white/20 rounded-full hover:border-brand-yellow hover:text-brand-yellow transition text-sm text-gray-300">About</a>
+                    <a href="#skills"
+                        class="px-5 py-2 border border-white/20 rounded-full hover:border-brand-yellow hover:text-brand-yellow transition text-sm text-gray-300">Skills</a>
+                    <a href="#projects"
+                        class="px-5 py-2 border border-white/20 rounded-full hover:border-brand-yellow hover:text-brand-yellow transition text-sm text-gray-300">Projects</a>
+                    <a href="#contact"
+                        class="px-5 py-2 border border-white/20 rounded-full hover:border-brand-yellow hover:text-brand-yellow transition text-sm text-gray-300">Contact</a>
+                </div>
+
+                <div class="md:hidden">
+                    <button class="text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center pt-20 px-6 relative overflow-hidden">
+        <!-- Background Decor -->
+        <div
+            class="absolute top-1/4 left-0 w-96 h-96 bg-brand-red space-y-4 rounded-full mix-blend-multiply filter blur-[128px] opacity-20 animate-blob">
+        </div>
+        <div
+            class="absolute top-1/4 right-0 w-96 h-96 bg-brand-yellow space-y-4 rounded-full mix-blend-multiply filter blur-[128px] opacity-20 animate-blob animation-delay-2000">
+        </div>
+
+        <div class="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
+
+            <!-- Text Content -->
+            <div class="order-2 md:order-1 space-y-6 animate-reveal">
+
+                <h1 class="text-5xl md:text-7xl font-bold leading-tight">
+                    <span class="text-gradient">Software Developer</span>
+                </h1>
+                I'm a passionate developer specializing in building exceptional digital experiences.
+                </p>
+                <div class="space-y-2 text-gray-300">
+                    <div class="flex items-center gap-3">
+                        <svg class="w-5 h-5 text-brand-yellow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                            </path>
+                        </svg>
+                        <span>09175167110</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <svg class="w-5 h-5 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                            </path>
+                        </svg>
+                        <span>carlogregore01@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="#projects"
+                        class="px-8 py-4 bg-gradient-to-r from-brand-red to-brand-yellow text-white font-semibold rounded-full hover:shadow-lg hover:bg-brand-red hover:shadow-brand-red/20 transition transform hover:-translate-y-1">
+                        View Projects
+                    </a>
+                    <a href="#contact"
+                        class="px-8 py-4 border border-gray-600 rounded-full hover:border-brand-yellow hover:text-brand-yellow transition">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+
+            <!-- Image Content -->
+            <div class="order-1 md:order-2 flex justify-center md:justify-end animate-reveal delay-200">
+                <div class="relative w-80 h-80 md:w-96 md:h-96">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-brand-red to-brand-yellow rounded-full blur opacity-75">
+                    </div>
+                    <div
+                        class="relative w-full h-full rounded-full overflow-hidden border-4 border-white/10 glow-effect bg-brand-blue">
+                        <img src="./static/images/carlogregorepic.jpg" alt="Carlo Gregore"
+                            class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="py-24 px-6 relative">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+                About <span class="text-[#38bdf8]">Me</span>
+            </h2>
+
+            <!-- Work Experience -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
+                    <svg class="w-6 h-6 text-brand-yellow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                        </path>
+                    </svg>
+                    Work Experience
+                </h3>
+                <div class="overflow-hidden rounded-2xl border border-white/10 bg-[#1e1b4b]/50 backdrop-blur-sm">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-white/5">
+                                <th class="p-6 border-b border-white/10 text-[#38bdf8] font-bold w-1/3">Company / Role
+                                </th>
+                                <th class="p-6 border-b border-white/10 text-[#38bdf8] font-bold">Details</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-sm divide-y divide-white/5">
+                            <!-- Gravitas Software -->
+                            <tr class="hover:bg-white/5 transition bg-white/[0.02]">
+                                <td class="p-6 align-top">
+                                    <div class="font-bold text-base md:text-lg text-white">Gravitas Software and
+                                        Service Solutions, Inc</div>
+                                    <div class="text-brand-yellow font-medium mt-1">Software Developer / Support</div>
+                                    <div class="text-gray-500 text-xs mt-2 font-mono">2019 - 2022</div>
+                                </td>
+                                <td class="p-6 text-gray-300 align-top">
+                                    <div class="grid gap-4">
+                                        <div>
+                                            <strong class="text-white block mb-1">Electronic Capital Request (eCR) &
+                                                ePCIS</strong>
+                                            <ul class="list-disc pl-4 space-y-1 text-gray-400 text-xs">
+                                                <li>Client support & Application Enhancements</li>
+                                                <li>Technical documentation & User Manuals</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <strong class="text-white block mb-1">Travel Management System
+                                                (TMS)</strong>
+                                            <ul class="list-disc pl-4 space-y-1 text-gray-400 text-xs">
+                                                <li>Server upgrade to 64-bit with SAP connections</li>
+                                                <li>Client Support & Enhancements</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <strong class="text-white block mb-1">Other Systems (CLR, eDR,
+                                                MSR/PCA)</strong>
+                                            <p class="text-gray-400 text-xs">Maintenance, support, and feature
+                                                enhancements for various internal tools.</p>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- Global Strategic -->
+                            <tr class="hover:bg-white/5 transition bg-white/[0.02]">
+                                <td class="p-6 align-top">
+                                    <div class="font-bold text-base md:text-lg text-white">Global Strategic Solutions
+                                        and Services, Inc.</div>
+                                    <div class="text-brand-yellow font-medium mt-1">Software Developer / Support</div>
+                                    <div class="text-gray-500 text-xs mt-2 font-mono">2012 - 2019</div>
+                                </td>
+                                <td class="p-6 text-gray-300 align-top">
+                                    <div class="grid gap-4">
+                                        <div>
+                                            <strong class="text-white block mb-1">Electronic Capital Request (eCR) &
+                                                ePCIS</strong>
+                                            <ul class="list-disc pl-4 space-y-1 text-gray-400 text-xs">
+                                                <li>Client support & Application Enhancements</li>
+                                                <li>Technical documentation & User Manuals</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <strong class="text-white block mb-1">Travel Management System
+                                                (TMS)</strong>
+                                            <ul class="list-disc pl-4 space-y-1 text-gray-400 text-xs">
+                                                <li>Server upgrade to 64-bit with SAP connections</li>
+                                                <li>Client Support & Enhancements</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <strong class="text-white block mb-1">Other Systems (CLR, eDR,
+                                                MSR/PCA)</strong>
+                                            <p class="text-gray-400 text-xs">Maintenance, support, and feature
+                                                enhancements for various internal tools.</p>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- Lydia's Lechon -->
+                            <tr class="hover:bg-white/5 transition">
+                                <td class="p-6 align-top">
+                                    <div class="font-bold text-lg text-white">Lydia’s Lechon</div>
+                                    <div class="text-gray-500 text-xs mt-1 font-mono">2005</div>
+                                </td>
+                                <td class="p-6 text-gray-400 align-middle">
+                                    Dining Staff
+                                </td>
+                            </tr>
+                            <!-- Jollibee -->
+                            <tr class="hover:bg-white/5 transition">
+                                <td class="p-6 align-top">
+                                    <div class="font-bold text-lg text-white">Jollibee Foods Corp</div>
+                                    <div class="text-gray-500 text-xs mt-1 font-mono">2005</div>
+                                </td>
+                                <td class="p-6 text-gray-400 align-middle">
+                                    Dining, Counter Crew
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div>
+                <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
+                    <svg class="w-6 h-6 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                        <path
+                            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                        </path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+                        </path>
+                    </svg>
+                    Education
+                </h3>
+                <div class="overflow-hidden rounded-2xl border border-white/10 bg-[#1e1b4b]/50 backdrop-blur-sm">
+                    <table class="w-full text-left border-collapse">
+                        <tbody class="text-sm divide-y divide-white/5">
+                            <tr class="hover:bg-white/5 transition bg-white/[0.02]">
+                                <td class="p-6 font-bold text-[#38bdf8] w-1/4">College</td>
+                                <td class="p-6 text-gray-300">
+                                    <div class="font-bold text-base">STI College-Parañaque</div>
+                                    <div class="text-xs text-gray-500 mt-1">2008 - 2012</div>
+                                </td>
+                                <td class="p-6 text-brand-yellow font-medium text-right">BS Computer Science</td>
+                            </tr>
+                            <tr class="hover:bg-white/5 transition">
+                                <td class="p-6 font-bold text-[#38bdf8]">High School</td>
+                                <td class="p-6 text-gray-300">
+                                    <div class="font-bold text-base">St. Andrew's School</div>
+                                    <div class="text-xs text-gray-500 mt-1">1999 - 2003</div>
+                                </td>
+                                <td class="p-6 text-gray-400 text-right">La Huerta, Parañaque City</td>
+                            </tr>
+                            <tr class="hover:bg-white/5 transition">
+                                <td class="p-6 font-bold text-[#38bdf8]">Elementary</td>
+                                <td class="p-6 text-gray-300">
+                                    <div class="font-bold text-base">Malate Catholic School</div>
+                                    <div class="text-xs text-gray-500 mt-1">1993 - 1999</div>
+                                </td>
+                                <td class="p-6 text-gray-400 text-right">Malate, Manila</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Technical Arsenal -->
+    <section id="skills" class="py-20 px-6 bg-[#25225d]/30">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">
+                <span class="text-[#38bdf8]">Skills</span>
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Frontend -->
+                <div
+                    class="bg-[#1e1b4b] p-8 rounded-2xl border border-white/5 hover:border-brand-yellow/50 transition duration-300 group hover:-translate-y-2">
+                    <div
+                        class="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6 group-hover:bg-brand-yellow/20 transition">
+                        <svg class="w-6 h-6 text-brand-yellow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Frontend Dev</h3>
+                    <p class="text-gray-400 text-sm mb-6">Crafting beautiful UIs with modern tools.</p>
+                    <div class="flex gap-2">
+                        <span
+                            class="px-3 py-1 bg-black/30 rounded-full text-xs text-gray-300 border border-white/10">React</span>
+                        <span
+                            class="px-3 py-1 bg-black/30 rounded-full text-xs text-gray-300 border border-white/10">Tailwind</span>
+                        <span
+                            class="px-3 py-1 bg-black/30 rounded-full text-xs text-gray-300 border border-white/10">TypeScript</span>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div
+                    class="bg-[#1e1b4b] p-8 rounded-2xl border border-white/5 hover:border-brand-red/50 transition duration-300 group hover:-translate-y-2">
+                    <div
+                        class="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6 group-hover:bg-brand-red/20 transition">
+                        <svg class="w-6 h-6 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Backend Dev</h3>
+                    <p class="text-gray-400 text-sm mb-6">Robust server-side logic and APIs.</p>
+                    <div class="flex gap-2">
+                        <span
+                            class="px-3 py-1 bg-black/30 rounded-full text-xs text-gray-300 border border-white/10">Python</span>
+                        <span
+                            class="px-3 py-1 bg-black/30 rounded-full text-xs text-gray-300 border border-white/10">Flask</span>
+                        <span
+                            class="px-3 py-1 bg-black/30 rounded-full text-xs text-gray-300 border border-white/10">Node.js</span>
+                    </div>
+                </div>
+
+                <!-- Design -->
+                <div
+                    class="bg-[#1e1b4b] p-8 rounded-2xl border border-white/5 hover:border-purple-500/50 transition duration-300 group hover:-translate-y-2">
+                    <div
+                        class="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6 group-hover:bg-purple-500/20 transition">
+                        <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.343L14.657 8l-1.657 1.343L11 7.343z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Design & Tools</h3>
+                    <p class="text-gray-400 text-sm mb-6">Designing experiences and workflows.</p>
+                    <div class="flex gap-2">
+                        <span
+                            class="px-3 py-1 bg-black/30 rounded-full text-xs text-gray-300 border border-white/10">Figma</span>
+                        <span
+                            class="px-3 py-1 bg-black/30 rounded-full text-xs text-gray-300 border border-white/10">Git</span>
+                        <span class="px-3 py-1 bg-black/30 rounded-full text-xs text-gray-300 border border-white/10">VS
+                            Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Work -->
+    <section id="projects" class="py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">
+                <span class="text-[#38bdf8]">Projects</span>
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <!-- Project 1 -->
+                <div
+                    class="h-80 bg-[#1e1b4b] rounded-2xl border border-white/5 overflow-hidden hover:border-brand-yellow/50 transition duration-300 group relative">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#1e1b4b] to-transparent opacity-90 z-10"></div>
+
+                    <div
+                        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-30 group-hover:opacity-10 scale-90 group-hover:scale-110 transition duration-700">
+                        <svg class="w-32 h-32 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <div class="absolute bottom-0 left-0 p-8 z-20">
+                        <h3 class="text-2xl font-bold mb-2">Portfolio Project</h3>
+                        <p class="text-gray-400">A showcase of modern web design and development.</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div
+                    class="h-80 bg-[#1e1b4b] rounded-2xl border border-white/5 overflow-hidden hover:border-brand-red/50 transition duration-300 group relative">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#1e1b4b] to-transparent opacity-90 z-10"></div>
+
+                    <div
+                        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-30 group-hover:opacity-10 scale-90 group-hover:scale-110 transition duration-700">
+                        <svg class="w-32 h-32 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <div class="absolute bottom-0 left-0 p-8 z-20">
+                        <h3 class="text-2xl font-bold mb-2">E-Commerce Dashboard</h3>
+                        <p class="text-gray-400">Robust backend system for managing inventory and sales.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="#"
+                    class="inline-flex items-center text-[#38bdf8] hover:text-white transition font-medium group">
+                    <span class="group-hover:mr-2 transition-all">View All Projects</span>
+                    <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/5 bg-[#25225d]">
+        <div class="max-w-7xl mx-auto px-6 text-center text-gray-500">
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="#"
+                    class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-brand-yellow hover:text-white transition transform hover:-translate-y-1">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                </a>
+                <a href="#"
+                    class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-brand-red hover:text-white transition transform hover:-translate-y-1">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                </a>
+                <a href="#"
+                    class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#1DA1F2] hover:text-white transition transform hover:-translate-y-1">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                    </svg>
+                </a>
+                <a href="#"
+                    class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#1877F2] hover:text-white transition transform hover:-translate-y-1">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.791-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                    </svg>
+                </a>
+            </div>
+            <p>&copy; 2026 Carlo Gregore. Built with clean code and ❤️.</p>
+        </div>
+    </footer>
+
+    <!-- External JS -->
+    <script src="./static/js/main.js"></script>
+</body>
+
+</html>
