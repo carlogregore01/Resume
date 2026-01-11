@@ -1,14 +1,8 @@
 import qrcode
 from PIL import Image
 
-# Create vCard format for contact information
-vcard_data = """BEGIN:VCARD
-VERSION:3.0
-FN:Carlo Gregore
-TEL:09175167110
-EMAIL:carlogregore01@gmail.com
-URL:https://carlogregore01.github.io/Resume/
-END:VCARD"""
+# Website URL
+website_url = "https://carlogregore01.github.io/Resume/"
 
 # Generate QR code
 qr = qrcode.QRCode(
@@ -18,12 +12,12 @@ qr = qrcode.QRCode(
     border=4,
 )
 
-qr.add_data(vcard_data)
+qr.add_data(website_url)
 qr.make(fit=True)
 
-# Create the QR code image
-img = qr.make_image(fill_color="#F2AA4C", back_color="transparent")
+# Create the QR code image - Black and White
+img = qr.make_image(fill_color="black", back_color="white")
 
 # Save the QR code
 img.save('static/images/contact_qr.png')
-print('QR code generated successfully!')
+print('QR code updated to website URL (Black/White) successfully!')
